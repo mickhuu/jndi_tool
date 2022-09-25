@@ -41,6 +41,12 @@ public class SerializedDataController implements LdapController {
             case commonscollectionsk2:
                 bytes = CommonsCollectionsK2.getBytes(payloadType, params);
                 break;
+            case commonscollectionsk3:
+                bytes = CommonsCollectionsK3.getBytes(payloadType, params);
+                break;
+            case commonscollectionsk4:
+                bytes = CommonsCollectionsK4.getBytes(payloadType, params);
+                break;
             case jdk7u21:
                 bytes = Jdk7u21.getBytes(payloadType, params);
                 break;
