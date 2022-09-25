@@ -6,6 +6,8 @@ public enum GadgetType {
     commonsbeanutils2,
     commonscollectionsk1,
     commonscollectionsk2,
+    commonscollectionsk3,
+    commonscollectionsk4,
     jdk7u21,
     jre8u20,
     c3p0,
